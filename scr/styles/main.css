@@ -1,0 +1,108 @@
+main{
+    max-width: 960px;
+    min-width: 300px;
+
+    padding-top: 64px;
+    margin: 0px 10px;
+
+    box-shadow: var(--sombra-horizontal);
+    text-shadow: var(--sombra-fonte);
+}
+
+/* SECTION 0 - HOME */
+
+#home{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    padding: 64px 24px 24px 24px;
+    
+    background-color: var(--content-color);
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 0px 0px 24px;
+}
+
+.home-text > h1{
+    font-size: 5em;
+}
+
+.intro{
+    padding: 24px 0px 12px 0px;
+    line-height: 1.4em;
+
+    font-family: var(--fonte-padrao);
+    color: whitesmoke;
+    font-size: 1.5em;
+} 
+
+.social-links{
+    display: flex;
+    justify-content: left;
+
+    font-size: 1.5em;
+}
+
+.social-links > a{
+    margin: 0px 8px 0px 0px;
+
+    font-family: var(--fonte-destaque);
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.social-links > a:hover{
+    text-shadow: var(--sombra-fonte-hover);
+    transition-duration: 0.3s;
+}
+
+.home-photo{
+    width: 40%;
+    height: auto;
+}
+
+/* SECTION 1 - ABOUTME */
+
+#aboutme{
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--content-lighter-color);
+    text-shadow: var(--sombra-fonte-contraste);
+} 
+
+/* SECTION 2 - PROJECTS */
+
+#projects{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--content-color);
+}
+
+/* SECTION 3 - CONTACTS */
+
+#contact{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--content-lighter-color);
+    text-shadow: var(--sombra-fonte-contraste);
+}
+
