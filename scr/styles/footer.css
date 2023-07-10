@@ -18,4 +18,5 @@ footer{
 
 .footer-item:hover{
     text-shadow: var(--sombra-fonte-hover);
+    transition-duration: 0.3s;
 }
