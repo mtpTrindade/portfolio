@@ -1,6 +1,5 @@
 header{
-    height: 8%;
-    min-height: 64px;
+    height: 96px;
     width: 100%;
 
     display: flex;
@@ -13,14 +12,18 @@ header{
     box-shadow: var(--sombra-top);
 }
 
+/* Navbar*/
+
 nav{
     width: 100vw;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 4%;
+    margin: 0px 32px;
 }
+
+/* Navbar items */
 
 #logo > .navbar-logo{
     height: 64px;
@@ -60,20 +63,3 @@ nav{
     font-size: 1.8em;  
 }
 
-#logo > .navbar-logo:hover, .navbar-items > li:hover{    
-    height: 48px;
-
-    border-radius: 8px;                   
-
-    text-shadow: var(--sombra-fonte-hover); 
-    background-image: radial-gradient(var(--lighter-color) 50%, transparent);
-
-    box-shadow: var(--sombra-hover);
-    
-    transition-duration: 0.3s;  
-}
-
-#logo > .navbar-logo:active, .navbar-items > li:active{
-    box-shadow: var(--sombra-active);
-    text-shadow: var(--sombra-fonte-active);
-}

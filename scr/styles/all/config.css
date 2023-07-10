@@ -9,6 +9,7 @@
     text-decoration: none;
 }
 
+/* Variables */
 :root{
     --color: #580f0e;
     --lighter-color: #9b1917;

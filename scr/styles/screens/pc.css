@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024.1px) and (max-width: 2048px){
+    
+    
+    /* Hovers */
+    /* HEADER: Navbar Items */
+    #logo > .navbar-logo:hover, .navbar-items > li:hover{    
+        height: 48px;
+
+        border-radius: 8px;                   
+
+        text-shadow: var(--sombra-fonte-hover); 
+        background-image: radial-gradient(var(--lighter-color) 50%, transparent);
+
+        box-shadow: var(--sombra-hover);
+        
+        transition-duration: 0.3s;  
+    }
+
+    #logo > .navbar-logo:active, .navbar-items > li:active{
+        box-shadow: var(--sombra-active);
+        text-shadow: var(--sombra-fonte-active);
+    }
+    
+    /* MAIN: Social Links */
+    .social-links > a:hover{
+        text-shadow: var(--sombra-fonte-hover);
+        transition-duration: 0.3s;
+    }
+
+    /* FOOTER: Social Links */
+    .footer-item:hover{
+        text-shadow: var(--sombra-fonte-hover);
+        transition-duration: 0.3s;
+    }
+}
