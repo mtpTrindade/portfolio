@@ -29,7 +29,9 @@
 @media (hover: none){
     /* HEADER */
     #logo > .navbar-logo:active, .navbar-items > li > a:active{
-    font-size: 1.7em;
+        font-size: 1.7em;
+        -webkit-tap-highlight-color: transparent;
+        
     }
 
     /* MAIN */
@@ -37,5 +39,7 @@
         text-shadow: var(--sombra-fonte-active);
         font-size: 1.4em;
     }
+
+    
 }
 
