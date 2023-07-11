@@ -1,0 +1,41 @@
+@media (hover: hover){
+    /* HEADER */
+    #logo > .navbar-logo:hover, .navbar-items > li > a:hover{    
+        height: 48px;
+
+        border-radius: 8px;                   
+
+        text-shadow: var(--sombra-fonte-hover); 
+
+        background-image: radial-gradient(var(--lighter-color) 50%, transparent);
+        box-shadow: var(--sombra-hover);
+     
+        transition-duration: 0.3s;  
+    }
+
+    /* MAIN */
+    .social-links > a:hover{
+        text-shadow: var(--sombra-fonte-hover);
+        transition-duration: 0.3s;
+    }
+
+    /* FOOTER */
+    .footer-item:hover{
+        text-shadow: var(--sombra-fonte-hover);
+        transition-duration: 0.3s;
+    }
+}
+
+@media (hover: none){
+    /* HEADER */
+    #logo > .navbar-logo:active, .navbar-items > li > a:active{
+    font-size: 1.7em;
+    }
+
+    /* MAIN */
+    .social-links > a:active{
+        text-shadow: var(--sombra-fonte-active);
+        font-size: 1.4em;
+    }
+}
+

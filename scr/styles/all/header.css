@@ -1,9 +1,9 @@
 header{
-    height: 96px;
+    height: 80px;
     width: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
@@ -15,7 +15,7 @@ header{
 /* Navbar*/
 
 nav{
-    width: 100vw;
+    width: 1024px;
 
     display: flex;
     justify-content: space-between;
@@ -27,8 +27,8 @@ nav{
 
 #logo > .navbar-logo{
     height: 64px;
-    width: auto;
-    padding: 14px 12px;
+    width: 84px;
+    padding: 16px;
 
     display: flex;
     justify-content: center;
@@ -47,19 +47,22 @@ nav{
 } 
 
 .navbar-items > li{
-    height: 64px;
-    width: auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navbar-items > li > a{
-    padding: 14px 12px;
+    height: 64px;
+    width: 80px;
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-family: var(--fonte-destaque);
     color: whitesmoke;
-    font-size: 1.8em;  
+    font-size: 1.8em; 
 }
 

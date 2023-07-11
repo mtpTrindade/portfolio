@@ -2,7 +2,7 @@ main{
     max-width: 1024px;
     min-width: 256px;
 
-    padding-top: 96px;
+    padding-top: 80px;
     margin: 0px 20px;
 
     box-shadow: var(--sombra-horizontal);
@@ -51,7 +51,14 @@ main{
 }
 
 .social-links > a{
-    margin: 0px 8px 0px 0px;
+    height: 32px;
+    width: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 16px;
 
     font-family: var(--fonte-destaque);
     color: whitesmoke;
