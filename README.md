@@ -1,10 +1,12 @@
-# Meu Portfolio 🤓
+# Meu Portfólio 🤓
  Esse é o projeto de desenvolvimento do meu portfólio front-end, ainda é um projeto em seus estágios inicias 
  e tem muito a melhorar...
 
  Clica <a href="https://mtptrindade.github.io/portfolio/scr/index.html" target="_blank">aqui</a> para dar uma olhada!
 
- Tem algum feedback ou alguma dica? Sério, toda ajuda é bem vinda... 😅
+ Tem algum feedback ou alguma dica? 
+ 
+ <h6>Sério, toda ajuda é bem vinda... 😅</h6>
  
  Ou se interessou pelo meu trabalho?
 
