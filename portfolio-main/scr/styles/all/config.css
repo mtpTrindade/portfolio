@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* CSS Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variables */
+:root{
+    --color: #580f0e;
+    --lighter-color: #9b1917;
+    --content-color: #707070;
+    --content-lighter-color: #D6D6D6;
+
+    --background-color: linear-gradient(to left, var(--color), var(--lighter-color), var(--color));
+    --background-color-blackish:  #111111;
+
+    --sombra-horizontal: 0px 0px 18px 2px #000000;
+    --sombra-top: 0px 1px 6px 2px #000000;
+    --sombra-bot: 0px -1px 6px 2px #000000;
+    --sombra-hover: 1px 1px 3px 1px #00000080;
+    --sombra-active: inset 1px 1px 3px 1px #00000080;
+
+    --sombra-fonte-hover: 3px 3px 3px #000000;
+    --sombra-fonte: 1px 1px 3px #000000;
+    --sombra-fonte-contraste: 1px 1px 3px #3d3d3d;
+    --sombra-fonte-active: none;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-destaque:  'League Gothic', sans-serif;
+}
+
+/* General */
+html{
+    background-color: var(--color);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*background-image: var(--background-color);*/
+    background-color: var(--background-color-blackish);
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+#aboutme > h1, #contact > h1{
+    color: black;
+}
+
+strong{
+    font-weight: bolder;
+
+    color: black;
+    text-shadow: var(--sombra-fonte-contraste);
+}
+
+a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+i{
+    size: 24px;
+
+    margin: 0 8px 0 8px;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    display: none; 
+  }
+
+  

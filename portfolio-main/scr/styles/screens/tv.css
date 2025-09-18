@@ -1,0 +1,10 @@
+@media screen and (min-width: 2048.1px){
+   /* HEADER */
+    #logo > .navbar-logo{
+        font-size: 2em;
+    }
+
+    .navbar-items > li > a{
+        font-size: 2em;  
+    }
+}

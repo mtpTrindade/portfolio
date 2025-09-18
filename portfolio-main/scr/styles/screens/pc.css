@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024.1px) and (max-width: 2048px){
+    /* HEADER */
+    #logo > .navbar-logo:active, .navbar-items > li > a:active{
+        box-shadow: var(--sombra-active);
+        text-shadow: var(--sombra-fonte-active); 
+    }
+    
+    /* MAIN */
+    /* Social Links */
+    .social-links > a:active{
+        text-shadow: var(--sombra-fonte-active);
+    }
+
+
+}

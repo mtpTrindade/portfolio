@@ -1,0 +1,109 @@
+main{
+    max-width: 1024px;
+
+    padding-top: 64px;
+    margin: 0px 20px;
+
+    box-shadow: var(--sombra-horizontal);
+    text-shadow: var(--sombra-fonte);
+}
+
+/* SECTION 0 - HOME */
+
+#home{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    padding: 24px;
+    
+    background-color: var(--content-color);
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 0px 0px 24px;
+}
+
+.home-text > h1{
+    font-size: 5em;
+}
+
+.intro{
+    padding: 24px 0px 12px 0px;
+    line-height: 1.4em;
+
+    font-family: var(--fonte-padrao);
+    color: whitesmoke;
+    font-size: 1.5em;
+} 
+
+.social-links{
+    display: flex;
+    justify-content: left;
+
+    font-size: 1.5em;
+}
+
+.social-links > a{
+    height: 32px;
+    width: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 16px;
+
+    font-family: var(--fonte-destaque);
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.home-photo{
+    width: 256px;
+    height: auto;
+}
+
+/* SECTION 1 - ABOUTME */
+
+#aboutme{
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--content-lighter-color);
+    text-shadow: var(--sombra-fonte-contraste);
+} 
+
+/* SECTION 2 - PROJECTS */
+
+#projects{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--content-color);
+}
+
+/* SECTION 3 - CONTACTS */
+
+#contact{
+    height: 800px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--content-lighter-color);
+    text-shadow: var(--sombra-fonte-contraste);
+}
+
